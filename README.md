@@ -12,7 +12,7 @@ Im feelin flossy
 ![Thermite](Untitled.jpg)
 
 
-<h6> VS
+# VS
 
 
 

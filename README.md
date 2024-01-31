@@ -12,5 +12,12 @@ Im feelin flossy
 ![Thermite](Untitled.jpg)
 
 
-<h5> VS
+<h6> VS
+
+
+
+
+
+
+![Ace](Ace.jpg)
 

@@ -30,7 +30,12 @@ const keyboard = [
   "QWERTYUIOP".split(''),
   "ASDFGHJKL".split (''),
   "ZXCVBNM".split('')
-]
+];
+keyboard[2].unshift(`ENTER`);
+keyboard[2].push(`BACK`);
+
+
+
 function render() {
   const main = document.querySelector('#root');
   let template = `<div class="keyboard">`;

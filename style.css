@@ -1,12 +1,37 @@
-a {
-    cursor: url('https://fav.farm/💀') 15 0, auto;
-  } 
-  body {
-    background-color:black;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Wellfleet&display=swap');
 
-    color:white;
+body {
+    background-color: rgb(18, 18, 19);
+    color:  rgb(248, 248, 248);
   }
+header h1 {
+  font-family: "Wellfleet", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
 
-  a {
-    cursor: url('https://fav.farm/💀') 15 0, auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+  .key {
+    background-color: rgb(129,131,132);
+    width: 43px;
+    height: 58px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 58px;
+    font-family: "Libre Franklin", sans-serif;
+    font-family: bold;
+    font-size: 1.25em;
   }

@@ -11,7 +11,7 @@ window.addEventListener('keyup', logKey);
 function logKey(evt) {
   console.log(evt);
 
-  if(evt.key.toUpperCase() == "BACKSPACE") {
+  if(evt.key.toUpperCase() == "ENTER") {
     console.log('submit');
   }
 
@@ -52,3 +52,4 @@ function render() {
 }
 
 render()
+
